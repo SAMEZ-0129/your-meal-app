@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🍽️ 일일 식단 관리 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+개인의 식사를 효율적으로 기록하고 관리할 수 있도록 돕는 웹 애플리케이션입니다. 매일 어떤 식사를 했는지 간편하게 추가, 수정, 삭제하고, 특정 날짜의 식단 기록을 한눈에 확인할 수 있습니다.
 
-## Available Scripts
+## ✨ 주요 기능
 
-In the project directory, you can run:
+* **간편한 인증:** 이메일/비밀번호 또는 Google 계정을 통한 손쉬운 회원가입 및 로그인, 로그아웃 기능.
 
-### `npm start`
+* **일일 식단 기록:** 특정 날짜에 아침, 점심, 저녁, 간식 등 식사 유형별로 음식 이름과 메모를 기록.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **식단 관리:** 기록된 식사 항목을 언제든지 수정하거나 삭제 가능.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **날짜별 탐색:** 이전 또는 다음 날짜로 쉽게 이동하여 과거 식단 기록 확인.
 
-### `npm test`
+* **개인화된 데이터:** 모든 식단 데이터는 사용자별로 안전하게 Firebase Firestore에 저장.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **반응형 UI:** 모바일 및 데스크톱 환경 모두에 최적화된 반응형 디자인 제공.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 기술 스택
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+이 프로젝트는 다음과 같은 기술들을 사용하여 개발되었습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Frontend:** `React` (JavaScript 라이브러리)
 
-### `npm run eject`
+* **Styling:** `Tailwind CSS`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **Backend & Database:** `Firebase` (Authentication, Cloud Firestore)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Deployment:** `Firebase Hosting`, `GitHub Pages`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
+## 🌐 배포된 앱 확인
+아래 URL을 통해 앱에 접속할 수 있습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Firebase Hosting URL:
+https://personal-meal-manager-app.web.app
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✉️ 문의
+궁금한 점이나 피드백이 있으시면 GitHub 이슈를 통해 알려주세요.
